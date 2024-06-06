@@ -1,0 +1,17 @@
+.navbar{
+    display: flex; 
+    border-bottom: 1px solid #333;
+}
+
+body{
+    background-color:#f6f4f3;
+}
+
+.optionsNavBar{      
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex; 
+    justify-content:space-around; 
+    flex: 2;
+    align-items: center;
+}
