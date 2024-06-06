@@ -5,6 +5,7 @@
 
 body{
     background-color:#f6f4f3;
+    margin: 100px;
 }
 
 .optionsNavBar{      
@@ -14,4 +15,11 @@ body{
     justify-content:space-around; 
     flex: 2;
     align-items: center;
+    list-style: none;  
+    
 }
+
+.optionsNavBar li a {
+    text-decoration: none;
+    color: black;
+  }
