@@ -1,11 +1,12 @@
 .navbar {
     display: flex;
     border-bottom: 1px solid #333;
+    align-items: center;
 }
 
 body {
     background-color: #f6f4f3;
-    margin: 100px;
+    margin: 5%;
 }
 
 .optionsNavBar {
