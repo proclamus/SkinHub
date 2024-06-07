@@ -1,22 +1,22 @@
-.navbar{
-    display: flex; 
+.navbar {
+    display: flex;
     border-bottom: 1px solid #333;
     align-items: center;
 }
 
-body{
-    background-color:#f6f4f3;
+body {
+    background-color: #f6f4f3;
     margin: 5%;
 }
 
-.optionsNavBar{      
+.optionsNavBar {
     font-weight: bold;
     text-transform: uppercase;
-    display: flex; 
+    display: flex;
     flex: 2;
     align-items: center;
-    list-style: none;  
-    
+    list-style: none;
+
 }
 
 .optionsNavBar li a {
@@ -24,28 +24,28 @@ body{
     color: black;
     display: grid;
     align-items: center;
-  }
+}
 
 img {
     align-items: center;
     max-width: 100%;
     width: auto;
-  }
+}
 
-.logoNavBar{
+.logoNavBar {
     align-items: center;
 }
 
-ul{
+ul {
     display: flex;
     padding: 0px;
 }
 
-li{
+li {
     display: flex;
 }
 
-a{
+a {
     display: flex;
 }
 
@@ -56,19 +56,20 @@ a{
         margin-left: 50px;
         margin-right: 50px;
         font-size: 100%;
-     }
-  }
-  
-  /* Estilo para telas menores que 600px */
+    }
+}
+
+/* Estilo para telas menores que 600px */
 @media (max-width: 599px) {
     .optionsNavBar li a {
-       height: auto;
-       margin-left: 10px;
-       margin-right: 10px;
-       font-size: 20%;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 20%;
     }
-    .logoNavBar{
+
+    .logoNavBar {
         display: flex;
-        height: auto;        
+        height: auto;
     }
-  }
+}
