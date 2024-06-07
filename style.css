@@ -1,18 +1,18 @@
 .navbar{
     display: flex; 
     border-bottom: 1px solid #333;
+    align-items: center;
 }
 
 body{
     background-color:#f6f4f3;
-    margin: 100px;
+    margin: 5%;
 }
 
 .optionsNavBar{      
     font-weight: bold;
     text-transform: uppercase;
     display: flex; 
-    justify-content:space-around; 
     flex: 2;
     align-items: center;
     list-style: none;  
@@ -22,4 +22,53 @@ body{
 .optionsNavBar li a {
     text-decoration: none;
     color: black;
+    display: grid;
+    align-items: center;
+  }
+
+img {
+    align-items: center;
+    max-width: 100%;
+    width: auto;
+  }
+
+.logoNavBar{
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    padding: 0px;
+}
+
+li{
+    display: flex;
+}
+
+a{
+    display: flex;
+}
+
+/* Estilo para telas maiores que 600px */
+@media (min-width: 600px) {
+    .optionsNavBar li a {
+        height: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 100%;
+     }
+  }
+  
+  /* Estilo para telas menores que 600px */
+@media (max-width: 599px) {
+    .optionsNavBar li a {
+       height: auto;
+       margin-left: 10px;
+       margin-right: 10px;
+       font-size: 20%;
+    }
+    .logoNavBar{
+        display: flex;
+        height: auto;        
+    }
   }
