@@ -25,6 +25,16 @@ function Header() {
           </Link>
         </li>
         <li>
+          <Link class="buttonNavBar" to="/Weapons">
+            Weapons
+          </Link>
+        </li>
+        <li>
+          <Link class="buttonNavBar" to="/Skins">
+            Skins
+          </Link>
+        </li>
+        <li>
           <Link class="buttonNavBar" to="/Contact">
             Contact
           </Link>
