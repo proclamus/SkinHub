@@ -8,7 +8,7 @@ function Header() {
       <div class="logoNavBar">
         <a>
           <img
-            src={require("./Assets/Logo/Logo_NoBackground_Black.png")}
+            src={require("../Assets/Logo/Logo_NoBackground_Black.png")}
             alt="Logo"
           ></img>
         </a>
