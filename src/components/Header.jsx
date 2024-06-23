@@ -2,6 +2,30 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+
+  const listLinks = [
+    {
+      name: 'Home',
+      link: '/home'
+    },
+    {
+      name: 'About',
+      link: '/about'
+    },
+    {
+      name: 'Weapons',
+      link: '/weapons'
+    },
+    {
+      name: 'Skins',
+      link: '/skins'
+    },
+    {
+      name: 'Contact',
+      link: '/contact'
+    },
+  ]
+
   return (
     <nav id="myNavBar" class="navbar">
       <div class="logoNavBar">
@@ -13,31 +37,15 @@ const Header = () => {
         </a>
       </div>
       <ul id="optionsNavBar" class="optionsNavBar">
-        <li>
-          <Link class="buttonNavBar" to="/">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link class="buttonNavBar" to="/About">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link class="buttonNavBar" to="/Weapons">
-            Weapons
-          </Link>
-        </li>
-        <li>
-          <Link class="buttonNavBar" to="/Skins">
-            Skins
-          </Link>
-        </li>
-        <li>
-          <Link class="buttonNavBar" to="/Contact">
-            Contact
-          </Link>
-        </li>
+        {listLinks.map((i, index) => {
+          return ( 
+            <li>
+            <Link key={index} class="buttonNavBar" to={i.link}>
+              {i.name}
+            </Link>
+          </li>
+          )
+        })}
       </ul>
     </nav>
   );

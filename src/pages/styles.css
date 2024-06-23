@@ -1,0 +1,12 @@
+.Container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Content {
+  max-width: 1216px;
+  width: 100%;
+  background:red ;
+}

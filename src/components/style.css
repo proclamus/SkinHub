@@ -2,6 +2,8 @@
   display: flex;
   border-bottom: 1px solid #333;
   align-items: center;
+  max-width: 1216px;
+  width: 100%;
 }
 
 body {
